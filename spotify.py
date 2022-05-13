@@ -5,8 +5,8 @@ import pandas as pd
 import time 
 
 # authenticate and connect to the API
-client_id = '36eee480d1984cb3afe2d01618259f5b'
-client_secret = '2b0e1b6ae66b437288177dbfca55eb88'
+client_id = ''
+client_secret = ''
 
 client_credentials_manager = SpotifyClientCredentials(client_id, client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
